@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/fs-studio/static/css/main.f7a2a4d8.css",
+    "main.js": "/fs-studio/static/js/main.0722cb10.js",
+    "static/media/heroimg.png": "/fs-studio/static/media/heroimg.3c19ec22943e7ecf6bda.png",
+    "static/media/IMG_8751.png": "/fs-studio/static/media/IMG_8751.4a740838d1e05442c958.png",
+    "static/media/IMG_8752.png": "/fs-studio/static/media/IMG_8752.b835f95d797e34a3c4c7.png",
+    "static/media/IMG_8749.png": "/fs-studio/static/media/IMG_8749.d3a3099fd98312e459ec.png",
+    "static/media/fs-logo.png": "/fs-studio/static/media/fs-logo.30d472b43485bf13427e.png",
+    "static/media/IMG_8750.png": "/fs-studio/static/media/IMG_8750.2aff299c24c10d0f86a7.png",
+    "index.html": "/fs-studio/index.html",
+    "main.f7a2a4d8.css.map": "/fs-studio/static/css/main.f7a2a4d8.css.map",
+    "main.0722cb10.js.map": "/fs-studio/static/js/main.0722cb10.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7a2a4d8.css",
+    "static/js/main.0722cb10.js"
+  ]
+}
