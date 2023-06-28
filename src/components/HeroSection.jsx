@@ -3,7 +3,7 @@ import {motion} from 'framer-motion';
 import hero_img from "./img/heroimg.png";
 const Hero = () => {
   return (
-    <section 
+    <section id='hero'
      className='h-max md:h-screen my-3'>
        
         <div className='flex flex-wrap md:flex-nowrap mx-auto h-full'>

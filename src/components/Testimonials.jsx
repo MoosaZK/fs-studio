@@ -4,10 +4,10 @@ import TesimonialCard from './TesimonialCard';
 import images from './Images';
 function Testimonials() {
   return (
-    <motion.section id='portfolio'
+    <motion.section id='testimonials'
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        className='h-max md:h-screen mb-5 '>
+        className='h-max md:h-[430px] '>
         
         <div id="heading" className='mt-20 '>
             <h3 className=' md:text-4xl text-3xl font-bold tracking-wide'>Testimonials</h3>

@@ -1,15 +1,26 @@
 import './App.css';
 import NavBar from './components/NavBar';
-import Hero from './components/HeroSection';
-import Portfolio from './components/Portfolio';
-import Testimonials from './components/Testimonials';
+import Contact from './components/Contact';
+import Home from './components/Home';
+
+
 function App() {
+  let component
+  switch (window.location.pathname) {
+    case "/contact":
+      component = <Contact />
+      break;
+    case "/fs-studio":
+      component = <Home />
+      break;
+    default:
+      break;
+  }
+
   return (
-    <div className="App">
+    <div className="App ">
       <NavBar />
-      <Hero />
-      <Portfolio />
-      <Testimonials />
+      {component}
     </div>
   );
 }

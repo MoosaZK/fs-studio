@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import {
   Navbar,
   MobileNav,
@@ -28,9 +29,9 @@ export default function Example() {
         color="blue-gray"
         className="p-1 font-semibold hover:text-blue-600 duration-150"
       >
-        <a href="#" className="flex items-cente duration-200">
-          Intro
-        </a>
+        <Link to="hero" spy={true} smooth={true} offset={-50} duration={500} className="flex items-cente duration-200 cursor-pointer">
+          Home
+        </Link>
       </Typography>
       <Typography
         as="li"
@@ -38,9 +39,9 @@ export default function Example() {
         color="blue-gray"
         className="p-1 font-semibold hover:text-blue-600 duration-150"
       >
-        <a href="#" className="flex items-center">
+        <Link to="portfolio" spy={true} smooth={true} offset={-50} duration={500} className="flex items-center cursor-pointer">
           Portfolio
-        </a>
+        </Link>
       </Typography>
       <Typography
         as="li"
@@ -48,9 +49,9 @@ export default function Example() {
         color="blue-gray"
         className="p-1 font-semibold hover:text-blue-600 duration-150"
       >
-        <a href="#" className="flex items-center">
-          About Us
-        </a>
+        <Link to="/testimonials" spy={true} smooth={true} offset={-150} duration={500}  className="flex items-center cursor-pointer">
+            Testimonials
+        </Link>
       </Typography>
       <Typography
         as="li"
@@ -58,7 +59,7 @@ export default function Example() {
         color="blue-gray"
         className="p-1 font-semibold hover:text-blue-600 duration-150"
       >
-        <a href="#" className="flex items-center">
+        <a href="/contact" className="flex items-center cursor-pointer">
           Contact Us
         </a>
       </Typography>
@@ -67,11 +68,11 @@ export default function Example() {
  
   return (
     <>
-      <Navbar className="sticky top z-10 h-max max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4 drop-shadow-md bg-white">
+      <Navbar className="fixed z-10 top-0 h-max max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-1 drop-shadow-md bg-white">
         <div className="flex items-center justify-between text-blue-gray-900">
           <Typography
             as="a"
-            href="#"
+            href="/fs-studio"
             className="mr-4 cursor-pointer py-1.5 font-medium"
           >
             <div className="logo w-[50px]">

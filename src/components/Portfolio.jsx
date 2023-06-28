@@ -9,7 +9,7 @@ function Portfolio() {
     initial={{ opacity: 0 }}
     whileInView={{ opacity: 1 }}
      className='h-max mb-5 bg-blue-500 md:pb-12'>
-        <div id="heading" className='py-5 my-4'>
+        <div id="heading" className='pt-16 pb-5'>
             <h3 className='text-white  md:text-4xl text-3xl font-bold tracking-wide'>Portfolio</h3>
         </div>
         <div id="description1">
